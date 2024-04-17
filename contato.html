@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cadastro-conatiner"> 
+        <h1>Faça seu Cadastro</h1>
+        <p></p>   
+    </div>     
+        <legend><h2>Dados Pessoais</h2></legend>
+        <label> Nome Completo: </label>
+            <input type="text" name="nome" id="nome" placeholder= "Ex: João Martins da Silva"required /><br /><br />
+        <label> CPF: </label>
+            <input type="text" name="cpf" id="cpf" placeholder= "123.456.789-10" required /><br /><br />
+        <label> Telefone de Contato </label>
+            <input type="number" name="telefone" id="telefone" placeholder="16988545290"required /><br /><br />
+        <p></p>    
+       <label> E-mail: </label>
+            <input type="email" name="email" id="email" placeholder="joaomartins@hotmail.com"required /><br /><br />
+        <label> Senha: </label>
+            <input type="password" name="senha" id="senha" minlength="8" required/><br /><br />  
+            <label>Data Nascimento</label>
+            <input type="date" name="data_nasc" id="data_nasc"><br /><br />    
+        <legend><h2> Endereço </h2></legend>
+        <label>Logradouro:</label>
+            <input type="text" name="endereco" id="endereco" placeholder= "Rua Chile" required />
+        <label>Numero:</label>
+            <input type="number" name="numero" id="numero" placeholder= "180" required /><br /><br />
+        <label>Complemento:</label>
+            <input type="text" name="complemento" id="complemento" placeholder= "Apto 12" required />
+        <label>Cidade:</label>
+            <input type="text" name="cidade" id="cidade" placeholder= "Ribeirão Preto" required /> <br /><br />
+        <label>Estado:</label>
+            <input type="text" name="estado" id="estado" placeholder= "São Paulo" required /> <br /><br />
+        <label>CEP:</label>
+            <input type="text" name="numero" id="numero" placeholder= "14090-110" required /> <br /><br />
+        <p></p>
+        <button type="submit"> Finalizar Cadastro</button>
+        <button type="reset"> Limpar</button>
+        <p></p>                  
+        <a href="index.html"><button> Retornar a página Principal </button></a>       
+    
+</body>
+</html>
